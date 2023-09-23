@@ -1,5 +1,6 @@
 import express from 'express'
 import giftsRouter from './routes/gifts.js'
+import './config/dotenv.js'
 
 
 //reads to see if there is a port environment vaiable if not uses port 3001
